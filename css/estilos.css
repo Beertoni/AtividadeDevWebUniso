@@ -1,0 +1,146 @@
+body p{
+    font-size: 17px;
+}
+body{
+    background-image: url(/imagens/cipo.jpg) ;
+}
+div#principal{
+    background-color: antiquewhite;
+    margin: 22px auto 20px auto;
+    width: 700px;
+    box-shadow: 0px 0px 25px black;
+}
+
+div#principal img#img-trex-principal{
+    margin-left: 250px;
+}
+
+div#principal header#cabecalho h1{
+    text-align: center;
+    top: 20px;
+}
+
+div#principal header#cabecalho h2{
+    text-align: center;
+    top: 20px;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    text-transform: uppercase;
+}
+
+nav#menu li{
+    display: block;
+    background-color:wheat;
+    padding: 2px;
+    margin: 5px;
+    transition: background-color 0.5s;
+}
+
+nav#menu li:hover{
+    background-color: tomato;
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: black;
+}
+img#img-trex-principal{
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 250px;
+}
+
+
+div#sons{
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 300px;
+    width: 250px;
+    align-items: center;
+}
+
+div#sons img#img-rugido-som{
+    width: 250px;
+    
+}
+div#sons img#img-som-emitido{
+    width: 250px;
+    
+}
+
+audio#som-trex-principal{
+    width: 200px;
+    margin-left: 20px;
+}
+audio#som-emitido{
+    width: 200px;
+    margin-left: 20px;
+}
+
+div#principal section#epoca-vivida{
+    margin-top: 400px;
+    text-align: center;
+}
+
+div#principal section#epoca-vivida img{
+    width: 400px;
+    margin-top: 200px;
+    
+}
+
+div#principal section#tempo-vida{
+    margin-top: 400px;
+    text-align: center;
+}
+
+div#principal section#tempo-vida img{
+    width: 500px;
+    margin-top: 200px;
+}
+
+div#principal section#alimentos{
+    margin-top: 400px;
+    text-align: center;
+}
+
+div#principal section#alimentos img{
+    width: 470px;  
+    margin-top: 150px; 
+}
+
+div#principal section#curiosidades{
+    margin-top: 400px;
+    text-align: center;
+
+}
+
+div#principal section#curiosidades img{
+    width: 470px;
+    margin-top: 150px;
+
+}
+footer#rodape{
+    clear: both;
+}
+footer#rodape p{
+    text-align: center;
+    text-indent: 0px;
+    color: yellow;
+}
+
+
+
+
+
+
+
